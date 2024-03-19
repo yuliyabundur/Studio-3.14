@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Context } from "../store/appContext";
-import rigoImageUrl from "../../img/rigo-baby.jpg";
+import flowerImageUrl from "../../img/flower.jpg";
 import "../../styles/home.css";
 
 export const Home = () => {
@@ -10,7 +10,7 @@ export const Home = () => {
 		<div className="text-center mt-5">
 			<h1>Studio 3.14</h1>
 			<p>
-				<img src={rigoImageUrl} />
+				<img src={flowerImageUrl} style={{ width: "300px", height: "300px" }}/>
 			</p>
 			<div className="alert alert-info">
 				{store.message || "Loading message from the backend (make sure your python backend is running)..."}
