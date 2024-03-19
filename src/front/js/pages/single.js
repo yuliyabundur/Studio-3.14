@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from "react";
 import PropTypes from "prop-types";
 import { Link, useParams } from "react-router-dom";
 import { Context } from "../store/appContext";
-import flowerImageUrl from "../../img/flower.jpg";
+import laserImageUrl from "../../img/laser.jpg";
 
 export const Single = props => {
 	const { store, actions } = useContext(Context);
@@ -10,7 +10,7 @@ export const Single = props => {
 
 	return (
 		<div className="jumbotron">
-			<img src={flowerImageUrl} style={{ width: "20px", height: "20px" }}/>
+			<img src={laserImageUrl} />
 
 			<Link to="/">
 				<span className="btn btn-primary btn-lg" href="#" role="button">
