@@ -2,4 +2,26 @@
     General Styles used on every website (Don't Repeat Yourself)
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap');
+html {
+  height: 100vh;
 
+}
+
+body {
+    height: 100%;
+    background: #4b4949;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  
+  
+  .container-jumbotron {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }

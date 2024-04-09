@@ -7,7 +7,7 @@
   "description": "Build web applications using React.js for the front end and python/flask for your backend API.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --config webpack.dev.js --port 3000",
+    "start": "webpack-dev-server --config webpack.dev.js --port 3000",
     "build": "webpack --config webpack.prod.js"
   },
   "author": "Alejandro Sanchez (http://alesanchezr.com/)",
@@ -21,7 +21,7 @@
     "@babel/core": "^7.24.4",
     "@babel/plugin-proposal-class-properties": "^7.16.0",
     "@babel/plugin-transform-runtime": "^7.16.4",
-    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-env": "^7.16.4",
     "@babel/preset-react": "^7.16.0",
     "@babel/runtime": "^7.16.3",
     "babel-eslint": "^10.1.0",
@@ -46,10 +46,10 @@
     "remote-origin-url": "^2.0.0",
     "style-loader": "^3.3.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.4",
-    "webpack": "^5.91.0",
-    "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.15.2",
+    "typescript": "^4.7.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.9.1",
     "webpack-merge": "^5.8.0"
   },
   "babel": {
@@ -73,14 +73,12 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "maplibre-gl": "^3.6.2",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-polyfills": "0.0.1",
-    "react-router-dom": "^6.3.0"
-  },
-  "directories": {
-    "doc": "docs"
-  },
-  "keywords": []
+    "react-router-dom": "^6.16.0",
+    "react-scripts": "^5.0.1"
+  }
 }

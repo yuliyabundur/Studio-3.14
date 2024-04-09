@@ -47,6 +47,8 @@ module.exports = merge(common, {
         //     semi: true,                 // Print semicolons at the ends of statements.
         //     encoding: 'utf-8'           // Which encoding scheme to use on files
         // }),
+
         new webpack.HotModuleReplacementPlugin()
+        
     ]
 });
