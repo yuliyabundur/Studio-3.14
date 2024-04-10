@@ -16,7 +16,7 @@ export const Home = () => {
 
 				<Jumbotron />
 
-				<h1>Studio 3.14</h1>
+				<h1>Studio 3.15</h1>
 
 				<p>
 					<img src={laserImageUrl}/>
