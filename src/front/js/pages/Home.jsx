@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { Context } from "../store/appContext";
-import { Jumbotron } from "../component/jumbotron/Jumbotron.jsx";
+import { Jumbotron } from "../component/Jumbotron.jsx";
 import laserImageUrl from "../../img/laser.jpg";
 import "../../styles/home.css";
 

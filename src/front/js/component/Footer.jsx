@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+import "../../styles/footer.css";
 
 
 export const Footer = () => {
 	return (
-		<footer className='footer bg-light text-dark mt-5 p-1 project-light'>
+		<footer className='footer text-dark mt-5 p-1 project-light'>
 	  <div className='container'>
 		<ul>
 			<li><a href="#">Contact Us</a></li>
