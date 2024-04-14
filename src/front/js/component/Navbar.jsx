@@ -17,23 +17,23 @@ export const Navbar = () => {
 
   return (
 
-    <>
-      <div className="container-fluid sticky-top d-flex justify-content-between main-contrast">
+    <nav className="navbar navbar-expand-lg sticky-top">
+      <div className="container-fluid d-flex align-items-center justify-content-between">
 
-        <div className="d-flex align-items-end" >
+        <div className="d-flex" >
           <Logo />
         </div>
 
-        <div className="d-flex justify-content-end align-items-center" style={{ marginRight: "10px" }}>
+        <div className="d-flex " style={{ marginLeft: "70%" }}>
+          <SocialNetwork />
+        </div>
+
+        <div className="d-flex justify-content-end align-items-center" style={{ marginRight: "2px" }}>
+        
           <div className="">
-            <ul className=" d-flex justify-content-start list-unstyled ">
-              <li className="nav-item active mt-3 me-3">
-                <div className="nav-item ">
-
-                  <div className="d-flex align-items-end" >
-                    <SocialNetwork />
-                  </div>
-
+            <ul className=" d-flex list-unstyled ">
+              <li className="nav-item">
+                <div className="nav-item">
                   <Link className="nav-item dropdown-toggle text-black me-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Tratamientos
                   </Link>
@@ -53,7 +53,7 @@ export const Navbar = () => {
           </div>
         </div>
       </div>
-    </>
+    </nav>
   );
 }
 

@@ -28,7 +28,7 @@ module.exports = {
               loader: "sass-loader" // translates SASS into CommonJS
             }
           ]
-        }, //css only files
+        }, 
         {
           test: /\.(png|svg|jpg|gif|jpeg|webp)$/, use: {
             loader: 'file-loader',
