@@ -5,16 +5,16 @@ import "../../styles/footer.css";
 
 export const Footer = () => {
 	return (
-		<footer className='footer text-dark mt-5 p-1 project-light'>
-	  <div className='container'>
+		<footer className='footer d-flex justify-content-end'>
+	  <div className='' style={{ marginRight: "2px", marginTop: "18px" }}>
 		<ul>
-			<li><a href="#">Contact Us</a></li>
-			<li><a href="#">Privacy & cookies</a></li>
-			<li><a href="#">Terms of use</a></li>
-			<li><a href="#">Trademarks</a></li>
-			<li><a href="#">FAQ</a></li>
-			<li><a href="#">About Us</a></li>
-			<li><a href="#">&copy; Studio 3.14 2024</a></li>
+			<a href="#">Contact Us</a>
+			<a href="#">Privacy & cookies</a>
+			<a href="#">Terms of use</a>
+			<a href="#">Trademarks</a>
+			<a href="#">FAQ</a>
+			<a href="#">About Us</a>
+			<a href="#">&copy; Studio 3.14 2024</a>
 		</ul>
 	  </div>
 	</footer>

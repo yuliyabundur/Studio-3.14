@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
-//import { Modal } from './jumbotronComponents/Modal.jsx';
+import "../../styles/jumbotron.css";
+import laserImageUrl from "../../img/jumbotron-image.png";
 
 
 export const Jumbotron = () => {
-    
+
     return (
 
-        <div className="jumbotron jumbotron-fluid px-2 py-5 mt-5" id='jumbotron-home'>
-            <div className="container container-jumbotron-home py-3 px-4">
-                <div className="p-3 rounded main-light-blue-bg-jumbotron-title">
+        <div className="jumbotron-flex">
 
-                    <h1 className="card-title-jumbotron"><strong >Studio</strong> 3.14<strong> your</strong> beauty home</h1>
-                </div>
-                <div className="spacer"></div>
-                <hr className="my-4"></hr>
+            <div className=" ">
+                <p className="">
+                    <img src={laserImageUrl} alt="Jumbotron background" className="img-jumbotron" style={{ width: "100%"}}/>
+                </p>
             </div>
+
         </div>
 
     );

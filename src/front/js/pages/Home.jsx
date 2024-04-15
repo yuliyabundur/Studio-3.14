@@ -12,15 +12,19 @@ export const Home = () => {
 	return (
 		<>
 			
-			<div className="container">
+			<div className="container container-flex">
 
 				<Jumbotron />
 
-				<h1>Studio 3.15</h1>
+				
 
-				<p>
-					<img src={laserImageUrl}/>
-				</p>
+				<h1>
+					Aquí irán las cards
+				</h1>
+
+				<h1>
+					Aquí la parte interactiva
+				</h1>
 
 			</div>
 		</>
