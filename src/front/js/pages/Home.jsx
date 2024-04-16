@@ -5,6 +5,7 @@ import { Context } from "../store/appContext";
 import { Jumbotron } from "../component/Jumbotron.jsx";
 import laserImageUrl from "../../img/laser.jpg";
 import "../../styles/home.css";
+import "../../styles/navbar.css";
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);
@@ -12,7 +13,7 @@ export const Home = () => {
 	return (
 		<>
 			
-			<div className="container container-flex">
+			<div className="container ">
 
 				<Jumbotron />
 
