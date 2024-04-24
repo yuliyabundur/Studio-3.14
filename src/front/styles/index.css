@@ -17,12 +17,7 @@ body {
     background-size: cover;
     font-family: 'Poppins', sans-serif;
   }
-  
 
-  .navbar-brand img {
-    width: 10px; /* Ajusta el ancho según tu diseño */
-    height: auto;
-  }
 
 
   /* Interactive.jsx  */
@@ -31,3 +26,27 @@ body {
     background: #6fb15e;
   }
 
+
+  .card-opinion {
+    width: 25rem;
+    height: 17rem;
+  }
+  .card-treatments {
+    width: 25rem;
+    height: 17rem;
+  }
+  .card-galery {
+    width: 25rem;
+    height: 17rem;
+  }
+
+.principal {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  justify-content: center;
+}
+
+
+.img-jumbotron {
+  height: 600px;
+} 

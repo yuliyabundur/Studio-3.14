@@ -7,15 +7,15 @@ import { CardOpinions } from "./cards/CardOpinions.jsx";
 
 
 export const Principal = () => {
-    return (
-       
-        <div className="container text-center mb-5 ps-0 pe-0" style={{ width: "81rem" }}>
-        <div className="d-flex flex-wrap">
-          <div className="flex-fill me-3"><CardTreatmentsAndPrices/> </div>
-          <div className="flex-fill me-3"><CardGalery/> </div>
-          <div className="flex-fill me-3"><CardOpinions/></div>
-        </div>
-      </div>
-       
-    );
+  return (
+
+    <div className="row principal text-center">
+
+      <CardTreatmentsAndPrices className="col-lg-4 col-sm-12" />
+      <CardGalery className="col-lg-4 col-sm-12" />
+      <CardOpinions className="col-lg-4 col-sm-12" />
+
+    </div>
+
+  );
 }; 

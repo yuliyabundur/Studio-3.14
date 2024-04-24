@@ -5,14 +5,18 @@ import { Link } from "react-router-dom";
 export const CardGalery = () => {
 
     return (
-        <>
-            <div className="card mb-3 main-light-blue-bg" >
-                <div className="card-header">Galery</div>
+
+        
+
+            <div className="card card-galery" style={{ marginRight: "25px", marginBottom: "5px" }}>
+                <div className="card-header" style={{ width: "100%" }}>Galery</div>
                 <Link to="/galery" >
-                    <img src="https://p7.hiclipart.com/preview/875/636/58/laser-hair-removal-day-spa-skin-care-facial-hair.jpg"
-                        style={ { maxWidth: "15rem" } } alt="galery" />
+                    <img src="https://static.vecteezy.com/system/resources/previews/008/879/468/non_2x/3d-minimal-social-media-with-video-and-photo-gallery-on-mobile-application-and-mobile-web-design-user-interface-optimization-for-banner-and-website-image-3d-render-on-pink-background-free-png.png"
+                        style={{ maxWidth: "15rem" }} />
                 </Link>
             </div>
-        </>
+
+        
+
     );
 };
