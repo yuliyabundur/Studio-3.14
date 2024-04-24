@@ -8,7 +8,8 @@ import { Home } from "./pages/Home.jsx";
 import { Navbar } from "./component/Navbar.jsx";
 import { Footer } from "./component/Footer.jsx";
 
-import "../styles/navbar.css";
+
+//import "../styles/navbar.css";
 
 //create your first component
 const Layout = () => {

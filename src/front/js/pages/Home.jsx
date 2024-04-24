@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { Context } from "../store/appContext";
 import { Jumbotron } from "../component/Jumbotron.jsx";
-import laserImageUrl from "../../img/laser.jpg";
+import { Principal } from "../component/Principal/Principal.jsx";
+import { Interactive } from "../component/Interactive.jsx";
+//import laserImageUrl from "../../img/laser.jpg";
 import "../../styles/home.css";
-import "../../styles/navbar.css";
+//import "../../styles/navbar.css";
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);
@@ -13,15 +15,14 @@ export const Home = () => {
 	return (
 		<>
 			
-			<div className="container ">
+			<div className="container-sm .col-md-4">
 
 				<Jumbotron />
 
-				
+				<Principal />
 
-				<h1>
-					Aquí irán las cards
-				</h1>
+				<Interactive />
+
 
 				<h1>
 					Aquí la parte interactiva

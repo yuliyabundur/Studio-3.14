@@ -4,18 +4,14 @@ import { Link } from "react-router-dom";
 import { Logo } from './Logo.jsx';
 import { SocialNetwork } from './SocialNetwork.jsx';
 import { Navigate } from "react-router-dom";
-import '/workspaces/Studio-3.14/src/front/styles/navbar.css';
+import "../../styles/navbar.css";
 
 
 
 
 
 export const Navbar = () => {
-  const [isActive, setIsActive] = useState(false);
 
-  const handleToggle = () => {
-    setIsActive(!isActive);
-  };
 
   return (
 
@@ -28,17 +24,17 @@ export const Navbar = () => {
 
         <div className="d-flex align-items-center" style={{ marginRight: "2px" }}>
 
-          <div className="d-flex align-items-center " style={{}}>
+          <div className="d-flex align-items-center ">
             <SocialNetwork />
           </div>
 
 
           <div className="dropdown">
-            <a className="btn dropdown-toggle border-0" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="btn dropdown-toggle border-0" href="#" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
               Tratamientos
             </a>
             <div className="dropdown-menu p-0 border-0">
-              <div className="card border-0" style={{ backgroundColor: 'rgba(255, 255, 255, 0.1)' }}>
+              <div className="card-list-group border-0">
                 <ul className="list-group list-group-flush">
                   <li className="list-group-item  border-0"><a className="dropdown-item" href="#">Depilación láser</a></li>
                   <li className="list-group-item  border-0"><a className="dropdown-item" href="#">Pestañas</a></li>
