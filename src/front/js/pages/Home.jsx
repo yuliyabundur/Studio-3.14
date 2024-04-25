@@ -7,7 +7,6 @@ import { Principal } from "../component/Principal/Principal.jsx";
 import { Interactive } from "../component/Interactive.jsx";
 //import laserImageUrl from "../../img/laser.jpg";
 import "../../styles/home.css";
-//import "../../styles/navbar.css";
 
 export const Home = () => {
 	const { store, actions } = useContext(Context);
@@ -15,7 +14,7 @@ export const Home = () => {
 	return (
 		<>
 			
-			<div className="container-sm .col-md-4">
+			<div className=" row">
 
 				<Jumbotron />
 
