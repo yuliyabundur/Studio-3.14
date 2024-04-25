@@ -9,7 +9,7 @@ import { CardOpinions } from "./cards/CardOpinions.jsx";
 export const Principal = () => {
   return (
 
-    <div className="row principal text-center">
+    <div className="principal text-center d-flex">
 
       <CardTreatmentsAndPrices className="col-lg-4 col-sm-12" />
       <CardGalery className="col-lg-4 col-sm-12" />

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Logo } from './Logo.jsx';
 import { SocialNetwork } from './SocialNetwork.jsx';
 import { Navigate } from "react-router-dom";
-import "../../styles/navbar.css";
+
 
 
 
