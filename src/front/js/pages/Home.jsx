@@ -14,18 +14,13 @@ export const Home = () => {
 	return (
 		<>
 			
-			<div className=" row">
+			<div className="container-fluid">
 
 				<Jumbotron />
 
 				<Principal />
 
 				<Interactive />
-
-
-				<h1>
-					Aquí la parte interactiva
-				</h1>
 
 			</div>
 		</>

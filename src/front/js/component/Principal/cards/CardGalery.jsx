@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import galeryImage from "/workspaces/Studio-3.14/src/front/img/galery-image.png";
 
 
 export const CardGalery = () => {
@@ -8,11 +9,11 @@ export const CardGalery = () => {
 
         
 
-            <div className="card card-galery" style={{ marginRight: "25px", marginBottom: "5px" }}>
+            <div className="card card-galery " style={{ marginRight: "25px", marginBottom: "5px" }}>
                 <div className="card-header" style={{ color: "#333333", width: "100%" }}>Galery</div>
                 <Link to="/galery" >
-                    <img src="https://static.vecteezy.com/system/resources/previews/008/879/468/non_2x/3d-minimal-social-media-with-video-and-photo-gallery-on-mobile-application-and-mobile-web-design-user-interface-optimization-for-banner-and-website-image-3d-render-on-pink-background-free-png.png"
-                        style={{ maxWidth: "15rem" }} />
+                    <img src={galeryImage} className="text-center mt-5" style={{ maxWidth: "15rem" }}/>
+                        
                 </Link>
             </div>
 

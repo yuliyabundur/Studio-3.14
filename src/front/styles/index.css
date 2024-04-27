@@ -19,10 +19,16 @@ body {
   }
 
 
+   /* Jumbotron.jsx  */
+
 .jumbotron {
   position: relative;
   top: 0;
 }
+
+.img-jumbotron {
+  width:100%;
+} 
 
 
   /* Interactive.jsx  */
@@ -31,6 +37,8 @@ body {
     background: #6fb15e;
   }
 
+
+ /* Principal.jsx  */
 
   .card-opinion {
     width: 25rem;
@@ -52,10 +60,9 @@ body {
 }
 
 
-.img-jumbotron {
-  width:100%;
-} 
+ /* Footer.jsx  */
 
 .footer-list {
   color: #333333;
 }
+

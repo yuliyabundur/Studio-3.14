@@ -5,7 +5,7 @@ import "../../styles/footer.css";
 
 export const Footer = () => {
 	return (
-		<footer className='footer d-flex justify-content-end' >
+		<footer className='col-sm-12 footer d-flex justify-content-end' >
 	  <div className='' style={{ marginRight: "2px", marginTop: "18px" }}>
 		<ul className=''>
 			<a href="#" style={{ color: "#333333" }}>Contact Us</a>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export const Interactive = () => {
   return (
   
-    <div className="" id="interactiveRow">
+    <div className="container-fluid">
       
       <div className="d-flex interactive-first">hgkgkjhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjhg</div>
         

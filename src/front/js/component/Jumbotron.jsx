@@ -8,7 +8,7 @@ export const Jumbotron = () => {
 
         <div className="jumbotron d-flex text-center" style={{  }}>
 
-            <img src={laserImageUrl} alt="Jumbotron background" className="img-jumbotron col-lg-12 col-sm-12" style={{ }} />
+            <img src={laserImageUrl} alt="Jumbotron background" className="img-jumbotron" style={{ }} />
 
         </div>
 

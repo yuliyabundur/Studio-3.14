@@ -24,12 +24,12 @@ export const Navbar = () => {
 
         <div className="d-flex align-items-center" style={{ marginRight: "2px" }}>
 
-          <div className="d-flex align-items-center ">
+          <div className="align-items-center ">
             <SocialNetwork />
           </div>
 
 
-          <div className="dropdown">
+          <div className="dropdown d-flex">
             <a className="btn dropdown-toggle border-0" href="#" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
               Tratamientos
             </a>
@@ -44,9 +44,9 @@ export const Navbar = () => {
                 </ul>
               </div>
             </div>
-          </div>
+          
 
-          <div className="collapse navbar-collapse" id="navbarText">
+          <div className="d-flex navbar-collapse" id="navbarText">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link" href="#" style={{ color: 'black' }}>Precios</a>
@@ -58,6 +58,7 @@ export const Navbar = () => {
                 <a className="nav-link" href="#" style={{ color: 'black' }}>Pedir Cita</a>
               </li>
             </ul>
+          </div>
           </div>
 
 
