@@ -18,7 +18,7 @@ export const Navbar = () => {
     <nav className="row navbar navbar-expand-lg sticky-top transparent">
       <div className="container-fluid align-items-center justify-content-between">
 
-        <div className="d-flex" >
+        <div className="d-flex " >
           <Logo />
         </div>
 
