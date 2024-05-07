@@ -15,10 +15,10 @@ export const Navbar = () => {
 
   return (
 
-    <nav className="navbar navbar-expand-lg sticky-top transparent">
+    <nav className="row navbar navbar-expand-lg sticky-top transparent">
       <div className="container-fluid align-items-center justify-content-between">
 
-        <div className="d-flex align-items-center" >
+        <div className="d-flex" >
           <Logo />
         </div>
 

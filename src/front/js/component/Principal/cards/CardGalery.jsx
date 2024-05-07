@@ -9,7 +9,7 @@ export const CardGalery = () => {
 
         
 
-            <div className="card card-galery " style={{ marginRight: "25px", marginBottom: "5px" }}>
+            <div className="card card-galery container-fluid" style={{  }}>
                 <div className="card-header" style={{ color: "#333333", width: "100%" }}>Galery</div>
                 <Link to="/galery" >
                     <img src={galeryImage} className="text-center mt-5" style={{ maxWidth: "15rem" }}/>

@@ -6,9 +6,9 @@ export const Jumbotron = () => {
 
     return (
 
-        <div className="jumbotron d-flex text-center" style={{  }}>
+        <div className="row jumbotron text-center " style={{ }}>
 
-            <img src={laserImageUrl} alt="Jumbotron background" className="img-jumbotron" style={{ }} />
+            <img src={laserImageUrl} alt="Jumbotron background" className="img-jumbotron" style={{ padding: "0%" }} />
 
         </div>
 

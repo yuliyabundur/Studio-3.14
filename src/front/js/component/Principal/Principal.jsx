@@ -9,11 +9,11 @@ import { CardOpinions } from "./cards/CardOpinions.jsx";
 export const Principal = () => {
   return (
 
-    <div className="container-fluid principal text-center d-flex">
+    <div className="row principal text-center container-fluid d-flex">
 
-      <CardTreatmentsAndPrices className="col-sm-12" />
-      <CardGalery className="col-sm-12" />
-      <CardOpinions className="col-sm-12" />
+      <CardTreatmentsAndPrices className="" />
+      <CardGalery className="" />
+      <CardOpinions className="" />
 
     </div>
 
