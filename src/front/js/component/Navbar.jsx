@@ -15,16 +15,17 @@ export const Navbar = () => {
 
   return (
 
-    <nav className="row navbar navbar-expand-lg sticky-top transparent">
+    <nav className="row container-fluid navbar navbar-expand-lg sticky-top transparent">
       <div className="container-fluid align-items-center justify-content-between">
 
         <div className="d-flex " >
           <Logo />
         </div>
+        
 
-        <div className="d-flex align-items-center" style={{ marginRight: "2px" }}>
+        <div className="container d-flex align-items-center justify-content-end" style={{  }}>
 
-          <div className="align-items-center ">
+        <div className="">
             <SocialNetwork />
           </div>
 
@@ -44,9 +45,11 @@ export const Navbar = () => {
                 </ul>
               </div>
             </div>
+
+            
           
 
-          <div className="d-flex navbar-collapse" id="navbarText">
+          <div className="container-fluid navbar-collapse" id="navbarText">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link" href="#" style={{ color: 'black' }}>Precios</a>
@@ -57,6 +60,7 @@ export const Navbar = () => {
               <li className="nav-item">
                 <a className="nav-link" href="#" style={{ color: 'black' }}>Pedir Cita</a>
               </li>
+              
             </ul>
           </div>
           </div>

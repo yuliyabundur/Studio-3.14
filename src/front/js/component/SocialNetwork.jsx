@@ -9,7 +9,7 @@ export const SocialNetwork = () => {
 
     return (
 
-        <div className="social-buttons d-inline" style={{ marginRight: "30px" }}>
+        <div className="container-fluid social-buttons d-flex" style={{ marginRight: "20px"}}>
 
             <a href="https://api.whatsapp.com/message/2NN3CZ4OZNBWF1?autoload=1&app_absent=0" className="social-button social-button--Whatsapp " aria-label="WhatsApp">
                 <img src={logoWhatsApp} alt="" style={{ width: "25px", height: "25px", marginRight: "8px" }} />

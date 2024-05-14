@@ -8,7 +8,7 @@ export const Logo = () => {
     return (
         <div className="logo-web">
             <Link to="/">
-                <img src={mainLogo} alt="" style={{ width: "130px", height: "130px"}} />
+                <img src={mainLogo} alt="" style={{ width: "20%"}} />
             </Link>
         </div>
     );

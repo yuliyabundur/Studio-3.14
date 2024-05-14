@@ -9,6 +9,8 @@ html {
 
 }
 
+
+
 body {
     height: 100%;
     width: 100%;
@@ -30,6 +32,12 @@ body {
 }
 
 
+.navbar {
+  position: relative;
+  top: 0;
+}
+
+
 
 
   /* Interactive.jsx  */
@@ -39,22 +47,22 @@ body {
   }
 
 
- /* Principal.jsx  */
+ /* Principal.jsx  
 
   .card-opinion {
     overflow: hidden;
-    width: 25rem;
-    height: 17rem;
+    width: 15rem;
+    height: 15rem;
   }
   .card-treatments {
     overflow: hidden;
-    width: 25rem;
-    height: 17rem;
+    width: 15rem;
+    height: 15rem;
   }
   .card-galery {
     overflow: hidden;
-    width: 25rem;
-    height: 17rem;
+    width: 15rem;
+    height: 15rem;
   }
 
 .principal {
@@ -62,6 +70,13 @@ body {
   margin-bottom: 5%;
   justify-content: center;
 }
+
+.img-principal {
+
+  height: 150px;
+  width: 250px;
+
+} */
 
 
  /* Footer.jsx  */
@@ -76,6 +91,7 @@ body {
 .our-team {
   padding: 30px 0 40px;
   margin-bottom: 30px;
+  margin-top: 30px;
   background-color: #ffffff;
   text-align: center;
   overflow: hidden;
@@ -142,5 +158,126 @@ body {
   text-transform: capitalize;
 }
 
+/* Principal */
+
+@layer reset {
+  *,
+  ::before,
+  ::after {
+    box-sizing: border-box;
+  }
+
+  :where(:not(dialog)) {
+    margin: 0;
+  }
+}
+
+@layer demo {
+  :root {
+    color-scheme: dark;
+    --nav-block-size: 74px;
+  }
+}
+
+
+
+@layer components.collections {
+  .section {
+    background-color: #ffffff;
+    display: grid;
+    inline-size: 100%;
+    min-block-size: max(600px, calc(100dvb - var(--nav-block-size)));
+    padding-block-end: 0.75rem;
+    padding-inline: 0.75rem;
+    place-items: center;
+    position: static;
+  }
+
+  .cards {
+    background-color: #ffffff;
+    block-size: 90%;
+    display: grid;
+    gap: 1rem;
+    inline-size: 100%;
+
+    @media (width > 1024px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .card-principal {
+    container-type: size;
+    inline-size: 100%;
+    block-size: 100%;
+    text-decoration: none;
+    min-block-size: 280px;
+    position: relative;
+
+    &:hover::after {
+      opacity: 1;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      inset: 0;
+      mix-blend-mode: multiply;
+      opacity: 0;
+      position: absolute;
+      transition: opacity 0.2s ease;
+    }
+  }
+
+  .card-1::after {
+    background-color: hsl(343, 98%, 52%);
+  }
+
+  .card-2::after {
+    background-color: hsl(199, 100%, 38%);
+  }
+
+  .card-3::after {
+    background-color: hsl(119, 59%, 64%);
+  }
+
+  .card-4::after {
+    background-color: hsl(49, 83%, 69%);
+  }
+
+  .visual {
+    background-color: #ffffff;
+    block-size: 100%;
+    display: grid;
+    inline-size: 100%;
+    overflow: hidden;
+    place-items: center;
+
+    >* {
+      grid-area: 1/1;
+    }
+  }
+
+
+  .card-img-principal {
+    block-size: 100cqb;
+    inline-size: 100cqi;
+    border-radius: inherit;
+    display: block;
+    background: conic-gradient(from 90deg at 50% 0%, #111, 50%, #222, #111);
+    filter: grayscale(#222);
+    object-fit: cover;
+  }
+
+  .figcaption {
+    z-index: 2;
+    color: white;
+    font: 400 8cqi;
+    font-size: 80px;
+  }
+}
+
+a:link {
+  text-decoration: none;
+}
 
 

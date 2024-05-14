@@ -11,7 +11,7 @@ export const CardOpinions = () => {
                 <div className="card-header" style={{ color: "#333333", width: "100%" }}>Opinions</div>
                 <Link to="/opinions" >
                     <img src={ opinionsImg }
-                        className="text-center" style={{ maxWidth: "14rem"}}/>
+                        className="text-center img-principal" style={{ }}/>
                 </Link>
             </div>
        
