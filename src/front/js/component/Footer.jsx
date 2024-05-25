@@ -6,11 +6,11 @@ import { SocialNetwork } from './SocialNetwork.jsx';
 
 export const Footer = () => {
 	return (
-		<footer className="col-sm-12 footer d-flex justify-content-center " >
+		<footer className="container-fluid footer" style={{ background: "#f1f1f1" }} >
 
-	  <div className='' style={{  marginTop: "20px" }}>
+	  <div className="" style={{  marginTop: "20px" }}>
 		
-		<ul className=''>
+		<ul className=" footer-ul " style={{ }}>
 			<a href="#" style={{ color: "#333333" }}>Contact Us</a>
 			<a href="#" style={{ color: "#333333"  }}>Privacy & cookies</a>
 			<a href="#" style={{ color: "#333333"  }}>About Us</a>
