@@ -4,7 +4,7 @@ import { useContext } from "react";
 import { Context } from "../store/appContext";
 import { Jumbotron } from "../component/Jumbotron.jsx";
 import { Principal } from "../component/Principal/Principal.jsx";
-import { Interactive } from "../component/Interactive.jsx";
+import { OurTeam } from "../component/OurTeam.jsx";
 //import laserImageUrl from "../../img/laser.jpg";
 import "../../styles/home.css";
 
@@ -14,18 +14,13 @@ export const Home = () => {
 	return (
 		<>
 			
-			<div className=" row">
+			<div className="container-fluid">
 
-				<Jumbotron />
+				{/* <Jumbotron /> */}
 
 				<Principal />
 
-				<Interactive />
-
-
-				<h1>
-					Aquí la parte interactiva
-				</h1>
+				<OurTeam />
 
 			</div>
 		</>

@@ -7,6 +7,17 @@ import injectContext from "./store/appContext";
 import { Home } from "./pages/Home.jsx";
 import { Navbar } from "./component/Navbar.jsx";
 import { Footer } from "./component/Footer.jsx";
+import { Prices } from "./pages/Prices.jsx";
+import { Services } from "./pages/Services.jsx";
+import { Galery } from "./pages/Galery.jsx";
+import { Cita } from "./pages/Cita.jsx";
+import { ContactUs } from "./pages/ContactUs.jsx";
+import { AboutUs } from "./pages/AboutUs.jsx";
+import { Laser } from "./pages/Laser.jsx";
+import { Permanent } from "./pages/Permanent.jsx";
+import { Lashes } from "./pages/Lashes.jsx";
+import { NailsAndMakeUp } from "./pages/NailsAndMakeUp.jsx";
+
 
 
 //import "../styles/navbar.css";
@@ -26,6 +37,16 @@ const Layout = () => {
                     <Navbar />
                     <Routes>
                         <Route element={<Home />} path="/" />
+                        <Route element={<Prices />} path="/precios" />
+                        <Route element={<Services />} path="/tratamientos" />
+                        <Route element={<Galery />} path="/galeria" />
+                        <Route element={<Cita />} path="/cita" />
+                        <Route element={<ContactUs />} path="/contacto" />
+                        <Route element={<AboutUs />} path="/sobre-nosotros" />
+                        <Route element={<Laser />} path="/laser" />
+                        <Route element={<Permanent />} path="/permanente" /> 
+                        <Route element={<Lashes />} path="/pestañas" />
+                        <Route element={<NailsAndMakeUp />} path="/uñas-y-maquillaje" /> 
                      
                         <Route element={<h1>Not found!</h1>} />
                     </Routes>

@@ -1,15 +1,19 @@
 .footer {
-    background: #f0e3d5;
-    color: #616161;
+    color: #333333;
     font-size: 14px;
     position: fixed;
     bottom: 0;
+    display: flex;
+    justify-content: center;
     width: 100%;
+    
   }
   
 
-  .footer ul a {
-    margin-right: 20px; 
+.footer ul a {
+  margin-right: 30px; 
+ 
 }
-  
+
+
   
