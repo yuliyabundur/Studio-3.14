@@ -11,10 +11,10 @@ export const Footer = () => {
 	  <div className="" style={{  marginTop: "20px" }}>
 		
 		<ul className=" footer-ul " style={{ }}>
-			<a href="#" style={{ color: "#333333" }}>Contact Us</a>
-			<a href="#" style={{ color: "#333333"  }}>Privacy & cookies</a>
-			<a href="#" style={{ color: "#333333"  }}>About Us</a>
-			<a href="#" style={{ color: "#333333"  }}>&copy; Studio 3.14 2024</a>
+			<Link to="/contacto" style={{ color: "#333333" }}>Contact Us</Link>
+			<Link to="/" style={{ color: "#333333"  }}>Privacy & cookies</Link>
+			<Link to="/sobre-nosotros" style={{ color: "#333333"  }}>About Us</Link>
+			<Link to="/" style={{ color: "#333333"  }}>&copy; Studio 3.14 2024</Link>
 		</ul>
 	  </div>
 

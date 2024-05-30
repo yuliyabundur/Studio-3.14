@@ -3,6 +3,7 @@ import lashesImage from "/workspaces/Studio-3.14/src/front/img/lashes.png";
 import permanentImage from "/workspaces/Studio-3.14/src/front/img/lips.jpg";
 import depilationImage from "/workspaces/Studio-3.14/src/front/img/depilation.jpg";
 import beautyImage from "/workspaces/Studio-3.14/src/front/img/beauty.jpg";
+import { Link } from "react-router-dom";
 //import { CardTreatmentsAndPrices } from "./cards/CardTreatmentsAndPrices.jsx";
 //import { CardGalery } from "./cards/CardGalery.jsx";
 //import { CardOpinions } from "./cards/CardOpinions.jsx";
@@ -15,7 +16,7 @@ export const Principal = () => {
 
     <section className="section">
       <div className="cards">
-        <a href="#" className="card-principal card-1">
+        <Link to="/permanente" className="card-principal card-1">
           <figure className="visual">
             <img
               className="card-img-principal"
@@ -24,8 +25,8 @@ export const Principal = () => {
             />
             <figcaption className="figcaption">Permanente</figcaption>
           </figure>
-        </a>
-        <a href="#" className="card-principal card-2">
+        </Link>
+        <Link to="/laser" className="card-principal card-2">
           <figure className="visual">
             <img
               className="card-img-principal"
@@ -34,8 +35,8 @@ export const Principal = () => {
             />
             <figcaption className="figcaption">Laser</figcaption>
           </figure>
-        </a>
-        <a href="#" className="card-principal card-3">
+        </Link>
+        <Link to="/pestañas" className="card-principal card-3">
           <figure className="visual">
             <img
               className="card-img-principal"
@@ -44,8 +45,8 @@ export const Principal = () => {
             />
             <figcaption className="figcaption">Pestañas</figcaption>
           </figure>
-        </a>
-        <a href="#" className="card-principal card-4">
+        </Link>
+        <Link to="/uñas-y-maquillaje" className="card-principal card-4">
           <figure className="visual">
             <img
               className="card-img-principal"
@@ -54,7 +55,7 @@ export const Principal = () => {
             />
             <figcaption className="figcaption">Nails & MakeUp</figcaption>
           </figure>
-        </a>
+        </Link>
       </div>
     </section>
 

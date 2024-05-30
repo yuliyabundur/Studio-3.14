@@ -28,16 +28,16 @@ export const Navbar = () => {
         
           <ul className="container navbar-nav justify-content-end">
             <li className="nav-item">
-              <a className="nav-link" href="#" style={{ color: 'black' }}>Tratamientos</a>
+              <Link className="nav-link" to="/tratamientos" style={{ color: 'black' }}>Tratamientos</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" style={{ color: 'black' }}>Precios</a>
+              <Link className="nav-link" to="/precios" style={{ color: 'black' }}>Precios</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" style={{ color: 'black' }}>Galería</a>
+              <Link className="nav-link" to="/galeria" style={{ color: 'black' }}>Galería</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#" style={{ color: 'black' }}>Pedir Cita</a>
+              <Link className="nav-link" to="/cita" style={{ color: 'black' }}>Pedir Cita</Link>
             </li>
 
           </ul>
