@@ -49,54 +49,13 @@ body {
 }
 
 
-
-
-
- /* Principal.jsx  
-
-  .card-opinion {
-    overflow: hidden;
-    width: 15rem;
-    height: 15rem;
-  }
-  .card-treatments {
-    overflow: hidden;
-    width: 15rem;
-    height: 15rem;
-  }
-  .card-galery {
-    overflow: hidden;
-    width: 15rem;
-    height: 15rem;
-  }
-
-.principal {
-  margin-top: 5%;
-  margin-bottom: 5%;
-  justify-content: center;
-}
-
-.img-principal {
-
-  height: 150px;
-  width: 250px;
-
-} */
-
-
- /* Footer.jsx  */
-
-.footer-list {
-  color: #333333;
-}
-
-
 /* Our Team */
 
 .our-team {
-  padding: 30px 0 40px;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  
+  margin-bottom: 200px;
+  margin-top: 60px;
+  justify-content: center;
   background-color: #ffffff;
   text-align: center;
   overflow: hidden;
@@ -105,10 +64,9 @@ body {
 
 .our-team .picture {
   display: inline-block;
-  height: 130px;
-  width: 130px;
-  margin-bottom: 50px;
-  
+  height: 150px;
+  width: 150px;
+  margin-bottom: 40px;
   position: relative;
 }
 
@@ -284,6 +242,46 @@ body {
 a:link {
   text-decoration: none;
 }
+
+.price-list {
+  text-align: center;
+}
+
+.pages {
+  position: relative;
+  background: linear-gradient(-45deg, #ffe7f0, #ffffff, #f0fff7, #fff1d7);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  border-radius: 15px; /* Para esquinas redondeadas */
+  overflow: hidden; /* Para asegurar que el contenido no sobresalga */
+}
+
+.pages::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border-radius: 25px; /* Para hacer coincidir con el radio del borde */
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.2); /* Ajusta según sea necesario */
+  z-index: -1; /* Coloca detrás del contenido */
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
 
 
 

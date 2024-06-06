@@ -1,5 +1,5 @@
 .footer {
-    color: #333333;
+    color: #adadad;
     font-size: 14px;
     position: fixed;
     bottom: 0;
@@ -13,6 +13,10 @@
 .footer ul a {
   margin-right: 30px; 
  
+}
+
+.footer-list {
+  color: #777777;
 }
 
 

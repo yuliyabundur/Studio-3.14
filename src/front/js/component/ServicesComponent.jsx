@@ -1,14 +1,30 @@
 import React from "react";
 
-export const ServicesComponent = () =>{
+export const ServicesComponent = () => {
+
     
+
     return (
 
-        <div className="container-fluid">
+        <div className="pages d-flex flex-column justify-content-center w-100 h-100">
 
-            <h1>Tratamientos</h1>
+            <div className="d-flex flex-column justify-content-center align-items-center">
+                
+            <h1>services</h1>
+            <h1>services</h1>
+            <h1>services</h1>
 
+            <h1>services</h1>
+            <h1>services</h1>
+            <h1>services</h1>
+            <h1>services</h1>
+            <h1>services</h1>
+            <h1>services</h1>
+            <h1>services</h1>
+
+            </div>
         </div>
+
 
     );
 };

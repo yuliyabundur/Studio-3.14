@@ -27,9 +27,7 @@ export const Navbar = () => {
 
         
           <ul className="container navbar-nav justify-content-end">
-            <li className="nav-item">
-              <Link className="nav-link" to="/tratamientos" style={{ color: 'black' }}>Tratamientos</Link>
-            </li>
+            
             <li className="nav-item">
               <Link className="nav-link" to="/precios" style={{ color: 'black' }}>Precios</Link>
             </li>
