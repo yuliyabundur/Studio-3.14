@@ -1,5 +1,5 @@
 import React from 'react';
-import price from '/workspaces/Studio-3.14/src/front/img/price.png';
+
 import "../../styles/footer.css";
 
 
@@ -10,7 +10,13 @@ export const PriceList = () => {
 
             <div className="d-flex flex-column justify-content-center align-items-center">
                 
-            <img src={ price } style={{ width: "700px", height: "1000px", marginRight: "8px" }} />
+            <h3> PRICE LIST </h3>
+
+            <p> Láser </p>
+            <p> Micropigmentación </p>
+            <p> Pestanas </p>
+            <p> Uñas </p>
+            <p> Make Up </p>
 
             </div>
         </div>
