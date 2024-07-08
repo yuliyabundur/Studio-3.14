@@ -21,7 +21,7 @@ export const Principal = () => {
             <img
               className="card-img-principal"
               src={permanentImage}
-              alt="Person with a game controller in hand"
+              alt=""
             />
             <figcaption className="figcaption">Permanente</figcaption>
           </figure>
@@ -31,7 +31,8 @@ export const Principal = () => {
             <img
               className="card-img-principal"
               src={depilationImage}
-              alt="Person with curly hair in neon lighting"
+              alt=""
+              
             />
             <figcaption className="figcaption">Laser</figcaption>
           </figure>
@@ -41,7 +42,8 @@ export const Principal = () => {
             <img
               className="card-img-principal"
               src={lashesImage}
-              alt="Person in vibrant neon lighting with abstract shapes"
+              alt=""
+              
             />
             <figcaption className="figcaption">Pestañas</figcaption>
           </figure>

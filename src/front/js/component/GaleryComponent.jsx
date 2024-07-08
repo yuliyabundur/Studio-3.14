@@ -25,7 +25,7 @@ import img22 from "/workspaces/Studio-3.14/src/front/img/img-gallery-22.png";
 
 export const GaleryComponent = () => {
     return (
-        <div className="pages d-flex flex-column justify-content-center w-100 h-100" style={{ marginTop: '20px', padding: '60px' }}>
+        <div className=" d-flex flex-column justify-content-center w-100 h-100" style={{ marginTop: '20px', padding: '60px' }}>
 
 
             <div className="d-flex flex-column justify-content-center align-items-center" >
